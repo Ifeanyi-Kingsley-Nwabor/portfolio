@@ -1,19 +1,60 @@
 .App {
   text-align: center;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/bg_3.jpg");
+  object-fit: contain;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 
-.App-logo {
+/* .container { */
+/* text-align: center;
+  font-family: "Lato", sans-serif; */
+/* background-image: url("./images/bg_2.jpg"); */
+/* background: rgba(6, 6, 6, 0.3); */
+/* object-fit: fill;
+  min-height: 100vh; */
+/* display: flex;
+  flex-direction: column; */
+/* flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; */
+/* font-size: calc(10px + 2vmin); */
+/* } */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card-image {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  height: 50%;
+}
+
+.card-component {
+  margin: 30px auto;
+}
+
+.App-avatar {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-avatar {
+    animation: App-avatar-spin infinite 20s linear;
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +63,121 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes App-avatar-spin {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotateY(360deg);
   }
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  margin: 10px 30px 10px 30px;
+}
+
+.my-links {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-self: flex-end; */
+  width: 150px;
+  justify-content: center;
+}
+
+.welcome {
+  color: aliceblue;
+}
+
+#footer {
+  margin: 0 auto;
+}
+
+.container_footer {
+  text-align: center;
+  display: inline;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer-copyright {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+
+  margin: 0 1100px 0 100px;
+}
+
+.quote-container {
+  width: 500px;
+  height: 100px;
+}
+
+/* material github and linkedin social icon */
+
+.btn.social > :first-child,
+.btn-large.social > :first-child,
+.col.social > :first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.btn.social,
+.btn-large.social,
+.col.social {
+  padding: 0 2rem 0 0;
+}
+.btn.social i,
+.btn-large.social i,
+.col.social i {
+  padding: 0 1rem;
+  margin-right: 1rem;
+}
+.btn.social-icon,
+.btn-large.social-icon,
+.col.social-icon {
+  padding: 0;
+}
+.btn.social-icon i,
+.btn-large.social-icon i,
+.col.social-icon i {
+  padding: 0 1rem;
+  margin-right: 0;
+}
+.btn-large.social-icon {
+  padding: 0 1rem;
+}
+.col.social {
+  width: 100%;
+  text-align: left;
+}
+
+.linkedin {
+  background-color: #007bb6;
+  color: #fff !important;
+}
+.linkedin i {
+  color: #fff !important;
+}
+.linkedin:hover {
+  background-color: #009de9 !important;
+}
+
+.github {
+  background-color: #444444;
+  color: #fff !important;
+}
+.github i {
+  color: #fff !important;
+}
+.github:hover {
+  background-color: #5e5e5e !important;
 }
