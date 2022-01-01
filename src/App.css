@@ -32,6 +32,21 @@
   flex-direction: row;
 }
 
+.project-map {
+  font-size: 20px;
+
+  width: 670px;
+  margin: 20px auto;
+}
+
+.videome {
+  margin: 40px auto;
+}
+
+.video-btn {
+  margin: 20px auto;
+}
+
 .card-image {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -41,6 +56,9 @@
 
 .card-component {
   margin: 30px auto;
+}
+.avatar {
+  width: 100px;
 }
 
 .App-avatar {
@@ -76,6 +94,40 @@
   to {
     transform: rotateY(360deg);
   }
+}
+
+.contact-page {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  position: relative;
+  left: 200px;
+}
+
+.contact-container {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  /* justify-content: space-between; */
+}
+
+.github-contact {
+  margin: 30px 30px;
+  position: relative;
+  left: 140px;
+}
+
+.linkedin-contact {
+  margin: 30px 30px;
+  position: relative;
+  right: 50px;
+}
+
+#about-me {
+  position: relative;
+  left: 200px;
 }
 
 .nav-links {

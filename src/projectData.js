@@ -62,7 +62,7 @@ const projectData = [
       "Kelvin Asomugha"
     ],
     description:
-      "This Project was created by Ifeanyi Kingsley Nwabor, Bogdan Cocis and Kelvin Asomugha during the early states of the Full-stack Web and App Development Training at the WBS Coding school. After the first few weeks, we were able to build a clone application of Hacker News.",
+      "This Project was created by Ifeanyi Kingsley Nwabor, Bogdan Cocis and Kelvin Asomugha during the early states of the Full-stack Web and App Development Training at the WBS Coding school. After the first few weeks, we were able to build a clone application of Hacker News. No GitHub repository was neccessary for this project since we had to fetch the data using the Hacker News API. In addition, we used code sandbox for developing the project hence would only open up on the browser as a code sandbox project. Subsequent updates would reflect as soon as it is refactored in an IDE (VS Code).",
     url: {
       frontend:
         "https://codesandbox.io/s/magical-heyrovsky-witm1?file=/src/my_components/NavBar.js",

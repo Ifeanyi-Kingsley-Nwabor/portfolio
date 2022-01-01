@@ -31,7 +31,7 @@ const Projects = ({ oneProject }) => {
             <a href={url.frontend} target="_blank" rel="noopener noreferrer">
               {name}
             </a>
-            <i className="material-icons right">more_vert</i>
+            <i className="material-icons right pulse">more_vert</i>
           </span>
 
           <p>

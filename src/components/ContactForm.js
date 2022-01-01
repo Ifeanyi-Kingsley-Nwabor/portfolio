@@ -42,7 +42,7 @@ const ContactForm = () => {
     e.target.reset();
   };
   return (
-    <div className="container">
+    <div className="container contact-form">
       <div className="row">
         <form ref={form} className="col s12 m10 l8 xl8" onSubmit={sendEmail}>
           <div className="row ">

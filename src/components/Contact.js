@@ -19,10 +19,6 @@ const Contact = () => {
     if (mySuperModal.current) {
       M.Modal.init(mySuperModal.current);
     }
-
-    // if (myNav.current) {
-    //   M.Sidenav.init(myNav.current);
-    // }
   }, []);
 
   const me = {
@@ -32,11 +28,11 @@ const Contact = () => {
     GitHub: "https://github.com/Ifeanyi-Kingsley-Nwabor"
   };
   return (
-    <div className="container">
+    <div className="container contact-page">
       <h3>{me.name}</h3>
       <div className="row">
-        <div className="col s12 m6">
-          <div className="card">
+        <div className="col s12 l6">
+          <div className="card contact-card">
             <div className="card-image">
               <img src={bg_2} alt="and this is me" />
               <span className="card-title"></span>
@@ -89,11 +85,12 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-container">
-        <p>Email: {me.email}</p>
-        <p>
+        {/* <p className="email-contact">Email: {me.email}</p> */}
+        {/* <div className="gin"> */}
+        <div className="linkedin-contact">
           <a
             // className="waves-effect waves-light btn-floating social linkedin"
-            className="waves-effect waves-light btn"
+            className="waves-effect waves-light btn "
             href={me.Linkedin}
             target="_blank"
             rel="noopener noreferrer"
@@ -101,11 +98,11 @@ const Contact = () => {
             Linkedin
             {/* <i className="fa fa-linkedin"></i> */}
           </a>
-        </p>
-        <p>
+        </div>
+        <div className="github-contact">
           <a
             // className="waves-effect waves-light btn-floating social github"
-            className="waves-effect waves-light btn"
+            className="waves-effect waves-light btn "
             href={me.GitHub}
             target="_blank"
             rel="noopener noreferrer"
@@ -113,8 +110,9 @@ const Contact = () => {
             GitHub
             {/* <i className="fa fa-github"></i> */}
           </a>
-        </p>
+        </div>
       </div>
+      {/* </div> */}
       {/* <LinkComponent /> */}
     </div>
   );
