@@ -1,8 +1,8 @@
-import bg_1 from "./images/bg_1.jpg";
-import bg_2 from "./images/bg_2.png";
-import pk_1 from "./images/pk_1.jpg";
-import bg_4 from "./images/bg_4.jpeg";
-import bg_5 from "./images/bg_5.jpg";
+import bg_1 from "../images/bg_1.jpg";
+import bg_2 from "../images/bg_2.png";
+import pk_1 from "../images/pk_1.jpg";
+import bg_4 from "../images/bg_4.jpeg";
+import bg_5 from "../images/bg_5.jpg";
 
 const projectData = [
   {
