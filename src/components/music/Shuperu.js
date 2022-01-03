@@ -24,9 +24,9 @@ const Music = () => {
               height="315"
               src="https://www.youtube.com/embed/95Wjtm0h_n8"
               title="YouTube video player"
-              frameborder="0"
+              // frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              // allowfullscreen
             ></iframe>
           </div>
         </div>

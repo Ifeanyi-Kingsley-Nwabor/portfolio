@@ -110,7 +110,7 @@ const ContactForm = () => {
                 value="Send Message"
               /> */}
               <button
-                className="btn waves-effect waves-light"
+                className="btn waves-effect waves-light blue accent-3"
                 type="submit"
                 name="action"
               >

@@ -7,9 +7,8 @@ import avatar5 from "../images/avatar_5.png";
 import { Link } from "react-router-dom";
 import Quotes from "./Quotes";
 
-const myAvatar = [avatar1, avatar2, avatar3, avatar4, avatar5];
-
 const Home = () => {
+  const myAvatar = [avatar1, avatar2, avatar3, avatar4, avatar5];
   const [avatar, setAvatar] = useState();
 
   useEffect(() => {

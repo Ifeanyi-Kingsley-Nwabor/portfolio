@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import LinkComponent from "./LinkComponent";
 
 const Projects = ({ oneProject }) => {
@@ -45,11 +45,10 @@ const Projects = ({ oneProject }) => {
             </a>
           </p>
           <p>{techstack}</p>
-          <p>
-            {tech.map((oneTech, index) => (
-              <p key={index}>{oneTech}</p>
-            ))}
-          </p>
+
+          {tech.map((oneTech, index) => (
+            <p key={index}>{oneTech}</p>
+          ))}
         </div>
         <div className="card-reveal">
           <span className="card-title grey-text text-darken-4">

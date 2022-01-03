@@ -2,7 +2,7 @@ import bg_1 from "../images/bg_1.jpg";
 import bg_2 from "../images/bg_2.png";
 import pk_1 from "../images/pk_1.jpg";
 import bg_4 from "../images/bg_4.jpeg";
-import bg_5 from "../images/bg_5.jpg";
+// import bg_5 from "../images/bg_5.jpg";
 
 const projectData = [
   {
@@ -83,11 +83,10 @@ const projectData = [
     contributors: [
       "Bogdan Cocis",
       "Ifeanyi Kingsley Nwabor",
-
       "Kelvin Asomugha"
     ],
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "This is a blog about lifestyle in general. The Lifestyle blog features tips regarding various niches such as, Health and Fitness tips,  Health and wellness tips, Travel tips with information about some of the best places to visit for instance in Berlin Germany and also somewhere in Cape Town South Africa. The development of the Lifestyle blog is still very much in progress and subsequent updates would be made.",
     url: {
       frontend: "https://main.dbbzht5lc5esn.amplifyapp.com/",
       backend: "null"

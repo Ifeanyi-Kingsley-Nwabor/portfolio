@@ -1,14 +1,12 @@
 import React, { useRef, useEffect } from "react";
-import avatar_1 from "../images/avatar_1.png";
+// import avatar_1 from "../images/avatar_1.png";
 import nik from "../images/nik.jpg";
 import Hennessy from "./music/Hennessy";
 import Shuperu from "./music/Shuperu";
-
 // import video from "../mp4/videome.mp4";
 import M from "materialize-css";
-
 // import { Link } from "react-router-dom";
-import LinkComponent from "./LinkComponent";
+// import LinkComponent from "./LinkComponent";
 
 const About = () => {
   const mySuperModal = useRef();
@@ -20,7 +18,7 @@ const About = () => {
   return (
     <div className="container responsive">
       <div className="row" id="about-me">
-        <div className="col s12 m8 l8 ">
+        <div className="col s12 m8 offset-m2">
           <div className=" card-panel hoverable ">
             <img
               src={nik}

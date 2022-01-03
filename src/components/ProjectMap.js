@@ -3,6 +3,7 @@ import ProjectData from "./ProjectData";
 import Projects from "./Projects";
 
 const ProjectMap = () => {
+  // console.log(ProjectData);
   return (
     <>
       <div className="container">

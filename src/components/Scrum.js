@@ -5,9 +5,9 @@ const CloudComputing = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col s12 card-component">
+        <div className="col col s12 m8 l6 card-component">
           <h5 className="header">Professional Scrum Master (PSM I)</h5>
-          <div className="card horizontal medium hoverable">
+          <div className="card service-card horizontal  hoverable">
             <div className="card-image">
               <img
                 className="certification-image responsive-img"
