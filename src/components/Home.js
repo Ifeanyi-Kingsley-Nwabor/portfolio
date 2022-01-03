@@ -32,13 +32,7 @@ const Home = () => {
       <div>
         <h2 className="welcome">
           Welcome to my{" "}
-          <Link
-            className="App-link"
-            // className="my-links"
-            to="/portfolio"
-            // target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link className="App-link" to="/portfolio">
             Portfolio...
           </Link>
         </h2>

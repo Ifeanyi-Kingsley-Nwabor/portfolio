@@ -39,7 +39,7 @@ const projectData = [
     description:
       "This Project was created by Ifeanyi Kingsley Nwabor, Thilo Hemme and Tomas Rihak as a prerequisite for the completion of the Full-stack Web and App Development Training at the WBS Coding school. Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. Pokémon was invented by a Japanese man named Satoshi Tajiri and his friend Ken Sugimori, who is an illustrator. ",
     url: {
-      frontend: "https://main.d2p8bulvzbuljs.amplifyapp.com/",
+      frontend: "https://poke-fight.netlify.app/",
       backend: "null"
     },
     repo: {
