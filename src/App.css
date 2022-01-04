@@ -1,16 +1,19 @@
 .App {
   text-align: center;
   font-family: "Lato", sans-serif;
-  background-image: url("./images/bg_3.jpg");
-  object-fit: contain;
+  background-image: url("./images/wp2.jpg");
+  object-fit: fill;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
 
+.about-container {
+  /* background-image: url("./images/wp4.png"); */
+}
 /* .container { */
 /* text-align: center;
   font-family: "Lato", sans-serif; */
@@ -39,13 +42,13 @@
   margin: 20px auto;
 }
 
-.videome {
+/* .videome {
   margin: 40px auto;
 }
 
 .video-btn {
   margin: 20px auto;
-}
+} */
 
 .card.service-card {
   padding: 0;
@@ -69,6 +72,10 @@
   border-radius: 8px;
   padding: 5px;
   height: 50%;
+}
+
+.card-blue {
+  color: blue;
 }
 
 .card-component {
@@ -142,6 +149,14 @@
   display: flex;
   flex-direction: column;
 }
+.about {
+  text-justify: auto;
+  text-align: justify;
+}
+
+.description {
+  text-align: justify;
+}
 
 .nav-links {
   display: flex;
@@ -162,6 +177,7 @@
 
 .welcome {
   color: aliceblue;
+  margin: 10px auto;
 }
 
 #footer {
@@ -189,7 +205,7 @@
 }
 
 /* material github and linkedin social icon */
-
+/* 
 .btn.social > :first-child,
 .btn-large.social > :first-child,
 .col.social > :first-child {
@@ -245,4 +261,4 @@
 }
 .github:hover {
   background-color: #5e5e5e !important;
-}
+} */

@@ -19,7 +19,16 @@ const Home = () => {
 
   return (
     <div className="App">
-      <div className="card-image waves-effect waves-block waves-light ">
+      <div>
+        <h1>Ifeanyi Kingsley Nwabor</h1>
+        <h2 className="welcome">
+          Welcome to my{" "}
+          <Link className="App-link" to="/portfolio">
+            Portfolio...
+          </Link>
+        </h2>
+      </div>
+      <div className=" waves-effect waves-block waves-light ">
         {avatar && (
           <img
             className="activator App-avatar"
@@ -29,14 +38,7 @@ const Home = () => {
           />
         )}
       </div>
-      <div>
-        <h2 className="welcome">
-          Welcome to my{" "}
-          <Link className="App-link" to="/portfolio">
-            Portfolio...
-          </Link>
-        </h2>
-      </div>
+
       <Quotes />
     </div>
   );

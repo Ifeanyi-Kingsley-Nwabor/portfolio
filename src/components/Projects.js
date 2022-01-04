@@ -55,7 +55,7 @@ const Projects = ({ oneProject }) => {
             {name}
             <i className="material-icons right">close</i>
           </span>
-          <p className="flow-text">{description}</p>
+          <p className="flow-text description">{description}</p>
           <p>Created by:</p>
           {contributors.map((person, index) => (
             <p key={index}>{person}</p>
