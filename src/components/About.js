@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import hob1 from "../images/a4nbg.png";
-import hob2 from "../images/a5nbg.png";
+// import hob2 from "../images/a5nbg.png";
 import nik from "../images/kingsley.png";
 
 import Hennessy from "./music/Hennessy";
