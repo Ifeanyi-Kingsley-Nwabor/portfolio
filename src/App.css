@@ -12,8 +12,23 @@
 }
 
 .about-container {
-  /* background-image: url("./images/wp4.png"); */
+  background-image: url("./images/wp4.png");
+  box-sizing: border-box;
 }
+
+.portolio-container {
+  background-image: url("./images/wp4.png");
+}
+.aboutcard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.name-image {
+  display: flex;
+  flex-direction: column;
+}
+
 /* .container { */
 /* text-align: center;
   font-family: "Lato", sans-serif; */
@@ -37,9 +52,9 @@
 
 .project-map {
   font-size: 20px;
-
+  text-align: justify;
   width: 670px;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 /* .videome {
@@ -81,8 +96,52 @@
 .card-component {
   margin: 30px auto;
 }
+.my-music-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-music {
+  padding: 20px;
+  background-color: rgb(245, 241, 241);
+  margin: 100px;
+  border-radius: 20px;
+}
+
+.hobby-1 {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hobby {
+  width: 40%;
+  margin-right: 100px;
+}
+.hobby-text {
+  width: 60%;
+  text-align: justify;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .nik {
+    animation: App-nik-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-nik-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotateY(40deg);
+  }
+}
 .avatar {
-  width: 100px;
+  width: 50%;
+}
+.about-div {
+  width: 50%;
 }
 
 .App-avatar {
@@ -182,6 +241,7 @@
 
 #footer {
   margin: 0 auto;
+  position: fixed;
 }
 
 .container_footer {

@@ -11,7 +11,7 @@ const Music = () => {
   return (
     <div>
       <p>
-        <a className="modal-trigger" href="#modal2">
+        <a className="modal-trigger my-music" href="#modal2">
           Shuperu
         </a>
       </p>

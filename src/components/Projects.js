@@ -21,7 +21,7 @@ const Projects = ({ oneProject }) => {
   // );
 
   return (
-    <div className="container">
+    <div className="container ">
       <div className="card card-panel hoverable ">
         <div className="card-image waves-effect waves-block waves-light">
           <img className="activator" src={image} alt="how the project looks" />
