@@ -1,8 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import M from "materialize-css";
 
-// import { Link } from "react-router-dom";
-// import LinkComponent from "./LinkComponent";
 import bg_2 from "../images/bg_2.jpg";
 import ContactForm from "./ContactForm";
 
@@ -28,7 +26,7 @@ const Contact = () => {
     GitHub: "https://github.com/Ifeanyi-Kingsley-Nwabor"
   };
   return (
-    <>
+    <div className="contact-bg">
       <div className="container contact-page">
         {/* <h5>{me.name}</h5> */}
         <div className="row">
@@ -78,8 +76,6 @@ const Contact = () => {
                 </p>
               </div>
               <div className="contact-container">
-                {/* <p className="email-contact">Email: {me.email}</p> */}
-                {/* <div className="gin"> */}
                 <div className="linkedin-contact">
                   <a
                     // className="waves-effect waves-light btn-floating social linkedin"
@@ -111,9 +107,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      {/* <LinkComponent /> */}
-      {/* </div> */}
-    </>
+    </div>
   );
 };
 
