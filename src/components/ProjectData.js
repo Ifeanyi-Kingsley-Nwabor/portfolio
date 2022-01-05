@@ -16,7 +16,7 @@ const projectData = [
       "Kelvin Asomugha"
     ],
     description:
-      "The Mvp_FinPro Project was the final project before graduating the Web and App Development Training at WBS Coding School. It is really amazing to see what you can achieve within the space of 3 weeks.",
+      "The Mvp_FinPro Project was the final project before graduating the Web and App Development Training at WBS Coding School. It is really amazing to see what you can achieve within the space of 3 weeks. This application is not completed yet as some features still needs to be implemented.",
     url: {
       frontend: "https://mvpfinpro.netlify.app/",
       backend: "null"
@@ -37,7 +37,7 @@ const projectData = [
     image: pk_1,
     contributors: ["Ifeanyi Kingsley Nwabor", "Thilo Hemme", "Tomas Rihak"],
     description:
-      "This Project was created by Ifeanyi Kingsley Nwabor, Thilo Hemme and Tomas Rihak as a prerequisite for the completion of the Full-stack Web and App Development Training at the WBS Coding school. Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. Pokémon was invented by a Japanese man named Satoshi Tajiri and his friend Ken Sugimori, who is an illustrator. ",
+      "This Project was created by Ifeanyi Kingsley Nwabor, Thilo Hemme and Tomas Rihak as a prerequisite for the completion of the Full-stack Web and App Development Training at the WBS Coding school. Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. Pokémon was invented by a Japanese man named Satoshi Tajiri and his friend Ken Sugimori, who is an illustrator. It was really interesting working on this project and I believe it can be done better so I intend to continue working on it with time.",
     url: {
       frontend: "https://poke-fight.netlify.app/",
       backend: "null"
