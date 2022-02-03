@@ -16,7 +16,7 @@ const projectData = [
       "Kelvin Asomugha"
     ],
     description:
-      "The Mvp_FinPro Project was the final project before graduating the Web and App Development Training at WBS Coding School. It is really amazing to see what you can achieve within the space of 3 weeks. This application is not completed yet as some features still needs to be implemented.",
+      "The Mvp_FinPro Project was the final project before graduating the Web and App Development Training at WBS Coding School. It is really amazing to see what you can achieve within the space of 3 weeks. This application is not completed yet as some features still needs to be implemented. Register or Login ( 'Test-User: Toby Jacobs, Email address: toby@gmail.com, Password: Toby') to view profile page.",
     url: {
       frontend: "https://mvpfinpro.netlify.app/",
       backend: "null"
