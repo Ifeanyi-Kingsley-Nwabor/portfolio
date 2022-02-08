@@ -9,26 +9,20 @@ import Masters from "./Masters";
 const Portfolio = () => {
   return (
     <div className="portolio-container ">
-      <div className="container ">
-        {/* <div id="flex-container"> */}
-        <div className="col s12 m5 l3">
-          <WebDev />
-        </div>
+      <div className="col s12 m6 l10">
+        <WebDev />
+      </div>
 
-        <div className="col s12 m5 l3">
-          <CloudComputing />
-        </div>
+      <div className="col s12 m5 l3">
+        <CloudComputing />
+      </div>
 
-        <div className="col s12 m5 l3">
-          <Scrum />
-        </div>
+      <div className="col s12 m5 l3">
+        <Scrum />
+      </div>
 
-        <div className="col s12 m5 l3">
-          <Masters />
-        </div>
-        {/* </div> */}
-
-        {/* <LinkComponent /> */}
+      <div className="col s12 m5 l3">
+        <Masters />
       </div>
     </div>
   );
