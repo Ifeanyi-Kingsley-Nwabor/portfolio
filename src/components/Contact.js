@@ -1,9 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import M from "materialize-css";
 import contact from "../images/contact.jpg";
-import bg_2 from "../images/bg_2.jpg";
 import ContactForm from "./ContactForm";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   useEffect(() => {
@@ -116,5 +114,4 @@ const Contact = () => {
     </div>
   );
 };
-
 export default Contact;
