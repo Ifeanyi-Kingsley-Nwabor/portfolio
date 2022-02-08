@@ -15,7 +15,7 @@ const projectData = [
       "Kelvin Asomugha"
     ],
     description:
-      "The Mvp_FinPro Project was the final project before graduating the Web and App Development Training at WBS Coding School. It is really amazing to see what you can achieve within the space of 3 weeks. This application is not completed yet as some features still needs to be implemented. Register or Login ( 'Test-User: Toby Jacobs, Email address: toby@gmail.com, Password: Toby') to view profile page. The checkout process was implemented using Stripe. For test purpose use 4242424242424242 as your card number, any three-digit CVC code, and an expiration date in the future to simulate a successful payment.",
+      "The Mvp_FinPro Project was the final project before graduating the Web and App Development Training at WBS Coding School. It is really amazing to see what you can achieve within the space of 3 weeks. This application is not completed yet as some features still needs to be implemented. Register or Login with (Test-User: Toby Jacobs, Email address: toby@gmail.com, Password: Toby) to view profile page. The checkout process was implemented using Stripe. For test purpose use 4242424242424242 as your card number, any three-digit CVC code, and an expiration date in the future to simulate a successful payment.",
     url: {
       frontend: "https://mvpfinpro.netlify.app/",
       backend: "null"
@@ -57,7 +57,6 @@ const projectData = [
     contributors: [
       "Bogdan Cocis",
       "Ifeanyi Kingsley Nwabor",
-
       "Kelvin Asomugha"
     ],
     description:
