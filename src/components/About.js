@@ -26,7 +26,7 @@ const About = () => {
             <div className="name-image ">
               <img
                 src={nik}
-                className="avatar  responsive-img"
+                className="avatar nik responsive-img"
                 alt="avatar_1"
               />
 
@@ -106,7 +106,6 @@ const About = () => {
                   always appreciated!
                 </p>
               </div>
-              {/* <img src={hob2} className="hobby" alt="avatar_1" /> */}
             </div>
 
             <div className="my-music-container">

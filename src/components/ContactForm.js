@@ -42,81 +42,78 @@ const ContactForm = () => {
     e.target.reset();
   };
   return (
-    <div className="container contact-form">
+    <div className="container ">
       <div className="row">
-        <form ref={form} className="col s12 m10 l8 xl8" onSubmit={sendEmail}>
-          <div className="row ">
-            <div className="input-field col s12 m10 l8 xl8">
-              {/* <i className="material-icons prefix">account_circle</i> */}
-              <input
-                id="name"
-                type="text"
-                className="validate"
-                placeholder="Name"
-                name="name"
-                required
-              />
-            </div>
-            <div className="row">
-              <div className="input-field col s12 m10 l8 xl8">
-                {/* <i className="material-icons prefix">email</i> */}
-                <input
-                  id="email"
-                  type="email"
-                  className="validate "
-                  placeholder="Email Address"
-                  name="email"
-                  required
-                />
+        <form
+          ref={form}
+          className="contact_form col s12 m10 l8 "
+          onSubmit={sendEmail}
+        >
+          <div className="input-field">
+            <i className="material-icons prefix">account_circle</i>
+            <input
+              id="name"
+              type="text"
+              className="validate"
+              placeholder="Name"
+              name="name"
+              required
+            />
+          </div>
 
-                {/* <span
-                  className="helper-text"
-                  data-error="wrong"
-                  data-success="right"
-                >
-                  Helper text
-                </span> */}
-              </div>
-            </div>
-            <div className="row">
-              <div className="input-field col s12 m10 l8 xl8">
-                <input
-                  id="subject"
-                  type="text"
-                  className="validate"
-                  placeholder="Subject"
-                  name="subject"
-                  required
-                />
-              </div>
-            </div>
-            <div className="row">
-              <div className="input-field col s12 m10 l8 xl8">
-                <textarea
-                  className="materialize-textarea "
-                  id="textarea2"
-                  cols="30"
-                  rows="8"
-                  placeholder="Your message"
-                  name="message"
-                  required
-                ></textarea>
-              </div>
-            </div>
-            <div className="send-btn">
-              {/* <input
-                type="submit"
-                className="btn btn-info"
-                value="Send Message"
-              /> */}
-              <button
-                className="btn waves-effect waves-light blue accent-3"
-                type="submit"
-                name="action"
-              >
-                Send Message
-              </button>
-            </div>
+          <div className="input-field">
+            <i className="material-icons prefix">alternate_email</i>
+            <input
+              id="email"
+              type="email"
+              className="validate "
+              placeholder="Email Address"
+              name="email"
+              required
+            />
+
+            <span
+              className="helper-text"
+              data-error="wrong"
+              data-success="right"
+            >
+              Helper text
+            </span>
+          </div>
+
+          <div className="input-field">
+            <i className="material-icons prefix">subject</i>
+            <input
+              id="subject"
+              type="text"
+              className="validate"
+              placeholder="Subject"
+              name="subject"
+              required
+            />
+          </div>
+
+          <div className="input-field">
+            <i className="material-icons prefix">email</i>
+            <textarea
+              className="materialize-textarea "
+              id="textarea2"
+              cols="30"
+              rows="8"
+              placeholder="Your message"
+              name="message"
+              required
+            ></textarea>
+          </div>
+          <div className="center">
+            <button
+              // id="btn_center"
+              className="btn waves-effect waves-light blue accent-3"
+              type="submit"
+              name="action"
+            >
+              Send Message
+            </button>
           </div>
         </form>
       </div>

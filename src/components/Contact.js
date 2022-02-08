@@ -1,8 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import M from "materialize-css";
-
+import contact from "../images/contact.jpg";
 import bg_2 from "../images/bg_2.jpg";
 import ContactForm from "./ContactForm";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   useEffect(() => {
@@ -27,14 +28,14 @@ const Contact = () => {
   };
   return (
     <div className="contact-bg">
-      <div className="container contact-page">
+      <div className=" contact-page">
         {/* <h5>{me.name}</h5> */}
         <div className="row">
           <div className="col s12 m6 offset-m1">
             <div className="card contact-card">
               <div className="card-image">
-                <img src={bg_2} alt="and this is me" />
-                <span className="card-title"></span>
+                <img src={contact} alt="and this is me" />
+                <span className="card-title">Contact Me</span>
 
                 <a
                   className="waves-effect waves-light btn-floating halfway-fab  blue darken-2
@@ -48,12 +49,17 @@ const Contact = () => {
                   className="modal col s12 m8 "
                   ref={mySuperModal}
                 >
-                  <div className="modal-content ">
-                    <h4>Send me a message...</h4>
-                    <p>
-                      I check my email quite regularly, so you can always expect
-                      a prompt response from me.
-                    </p>
+                  <div className="modal-content message_modal ">
+                    <div className="col s4">
+                      <h4 className="send_message_text">
+                        Send me a message...
+                      </h4>
+                      <p className="message_text">
+                        I check my email quite regularly, so you can always
+                        expect a prompt response from me!!!
+                      </p>
+                    </div>
+
                     <ContactForm />
                   </div>
                   <div className="modal-footer">
