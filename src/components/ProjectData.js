@@ -96,24 +96,24 @@ const projectData = [
     },
     tech: ["React, Node JS, PostgreSQL, Express, Trello Board,  Bootstrap"],
     techstack: "PERN"
-  }
+  },
 
-  // {
-  //   id: 5,
-  //   name: "ToDo List",
-  //   image: bg_5,
-  //   contributors: ["Ifeanyi Kingsley Nwabor"],
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  //   url: {
-  //     frontend: "https://mvpfinpro.netlify.app/",
-  //     backend: "null"
-  //   },
-  //   repo: {
-  //     frontend: "https://github.com/kelvcod/final-project-frontend.git",
-  //     backend: "https://github.com/Ifeanyi-Kingsley-Nwabor/mvp_finpro.git"
-  //   }
-  // }
+  {
+    id: 5,
+    name: "Amplify App - Zombeatz",
+    image: bg_5,
+    contributors: "Ifeanyi Kingsley Nwabor",
+    description:
+      "Here is a simple Full-Stack React Application using AWS Amplify. This was achieved by following step by step hands-on tutorial (https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/) on Amazon. The project includes making use of the aws amplify CLI, adding authentication flow to manage users. The project also entails a GraphQL API, a DynamoDB database and Simple Storage Service (Amazon S3) to store images. The application also leverages some APIs to show latest music videos (I am a music person), and also some information on crypto. Calls to the APIs are quite limited on a monthly bases so the Home page might not show this information. However you can go to the login page, create an account and try exploring. Feel free to upload any type of media file as well as text.",
+    url: {
+      frontend: "https://main.dg7t31vrlip61.amplifyapp.com/",
+      backend: "null"
+    },
+    repo: {
+      frontend: "https://github.com/Ifeanyi-Kingsley-Nwabor/Amplify_App.git",
+      backend: "null"
+    }
+  }
 ];
 
 export default projectData;
