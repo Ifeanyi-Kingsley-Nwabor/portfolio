@@ -11,7 +11,7 @@ const projectData = [
     image: bg_5,
     contributors: ["Ifeanyi Kingsley Nwabor"],
     description:
-      "Here is a simple Full-Stack React Application using AWS Amplify. This was achieved by following step by step hands-on tutorial (https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/) on Amazon. The project includes making use of the aws amplify CLI, adding authentication flow to manage users. The project also entails a GraphQL API, a DynamoDB database and Simple Storage Service (Amazon S3) to store images. The application also leverages some APIs to show latest music videos (I am a music person), and also some information on crypto. Calls to the APIs are quite limited on a monthly bases so the Home page might not show this information. However you can go to the login page, create an account and try exploring. Feel free to upload any type of media file as well as text.",
+      "Here is a simple Full-Stack React Application using AWS Amplify. This was achieved by following step by step hands-on tutorial (https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/) on Amazon. The project includes making use of the aws amplify CLI, adding authentication flow to manage users. The project also entails a GraphQL API, a DynamoDB database and Simple Storage Service (Amazon S3) to store images.  Feel free to upload any type of media file as well as text.",
     url: {
       frontend: "https://main.dg7t31vrlip61.amplifyapp.com/",
       backend: "null"
