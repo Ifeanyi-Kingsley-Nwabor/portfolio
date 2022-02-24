@@ -12,7 +12,7 @@ const NavBar = () => {
           Portfolio
         </NavLink>
         <NavLink to="/about" className="links">
-          About me
+          About
         </NavLink>
         <NavLink to="/projects" className="links">
           Projects

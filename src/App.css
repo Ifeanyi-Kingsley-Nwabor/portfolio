@@ -56,6 +56,13 @@
   width: 670px;
   margin: 50px auto;
 }
+.project-map h3 {
+  text-align: center;
+}
+
+.project-map p {
+  text-align: center;
+}
 
 /* .videome {
   margin: 40px auto;
@@ -239,6 +246,7 @@
 
 .description {
   text-align: justify;
+  font-size: 15px;
 }
 
 .nav-links {
@@ -346,3 +354,15 @@
 .github:hover {
   background-color: #5e5e5e !important;
 } */
+.myProjects {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  margin: 0 auto;
+  text-align: center;
+}
+/* Create three equal columns that floats next to each other */

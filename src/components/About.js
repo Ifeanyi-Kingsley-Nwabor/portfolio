@@ -94,7 +94,7 @@ const About = () => {
                   throw in some <b>MEAT</b> please!).
                 </p>
               </div>
-              <img src={hob1} className="hobby" alt="avatar_1" />
+              <img src={hob1} className="hobby responsive-img" alt="avatar_1" />
             </div>
 
             <div className="hobby-1">
