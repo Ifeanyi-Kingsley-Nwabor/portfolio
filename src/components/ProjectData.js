@@ -107,7 +107,7 @@ const projectData = [
     description:
       "This is a blog about lifestyle in general. The Lifestyle blog features tips regarding various niches such as, Health and Fitness tips,  Health and wellness tips, Travel tips with information about some of the best places to visit for instance in Berlin Germany and also somewhere in Cape Town South Africa. The development of the Lifestyle blog is still very much in progress and subsequent updates would be made.",
     url: {
-      frontend: "https://main.dbbzht5lc5esn.amplifyapp.com/",
+      frontend: "https://main.d6abdrd3ey96j.amplifyapp.com",
       backend: "null"
     },
     repo: {
