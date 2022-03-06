@@ -12,7 +12,7 @@ const projectData = [
     image: spider,
     contributors: ["Ifeanyi Kingsley Nwabor"],
     description:
-      "Here is a single page React Application which I built as a process of improving my CSS skills. This application provides (potential) developers with resources for learning and improving UI & UX Designs.  No CSS framework was used while creating this web application.",
+      "Here is a single page React Application which I built as a process of improving my CSS skills. This application provides (potential) developers with resources for learning and improving UI & UX Designs.  No CSS framework was used while creating this web application (Note: responsiveness still work in progress. Would be updated soon!).",
     url: {
       frontend: "https://spider-css.netlify.app/",
       backend: "null"
