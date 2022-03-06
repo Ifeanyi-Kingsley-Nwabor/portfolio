@@ -3,8 +3,27 @@ import bg_2 from "../images/bg_2.png";
 import pk_1 from "../images/pk_1.jpg";
 import bg_4 from "../images/bg_4.jpeg";
 import bg_5 from "../images/zombeatz.png";
+import spider from "../images/spider.jpeg";
 
 const projectData = [
+  {
+    id: 6,
+    name: "Spider CSS",
+    image: spider,
+    contributors: ["Ifeanyi Kingsley Nwabor"],
+    description:
+      "Here is a single page React Application which I built as a process of improving my CSS skills. This application provides (potential) developers with resources for learning and improving UI & UX Designs.  No CSS framework was used while creating this web application.",
+    url: {
+      frontend: "https://spider-css.netlify.app/",
+      backend: "null"
+    },
+    repo: {
+      frontend: "https://github.com/Ifeanyi-Kingsley-Nwabor/Spider-CSS.git",
+      backend: "null"
+    },
+    tech: ["React, Vanila CSS"],
+    techstack: "React"
+  },
   {
     id: 5,
     name: "Amplify App - Zombeatz",
