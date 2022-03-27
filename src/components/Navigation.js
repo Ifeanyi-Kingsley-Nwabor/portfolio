@@ -2,7 +2,7 @@ import React, { Fragment, useRef, useEffect } from "react";
 import M from "materialize-css";
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navigation = () => {
   useEffect(() => {
     const collapsibleElem = document.querySelector(".collapsible");
     M.Collapsible.init(collapsibleElem, {
@@ -193,4 +193,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;

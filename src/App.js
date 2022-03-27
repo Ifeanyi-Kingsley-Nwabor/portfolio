@@ -12,12 +12,12 @@ import ContactForm from "./components/ContactForm";
 
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navigation />
 
       <Switch>
         <Route exact path="/portfolio">
