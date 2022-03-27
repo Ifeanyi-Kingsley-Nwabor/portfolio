@@ -61,7 +61,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink to="/projects" className="dropdowntext">
-              <i class="material-icons">cloud</i>AWS
+              <i className="material-icons">cloud</i>AWS
             </NavLink>
           </li>
         </ul>
@@ -140,7 +140,7 @@ const Navbar = () => {
                 <ul>
                   <li>
                     <NavLink to="/projects" className="collapsible-body">
-                      <i class="material-icons">polymer</i>All Projects
+                      <i className="material-icons">polymer</i>All Projects
                     </NavLink>
                   </li>
                   <li>
@@ -151,7 +151,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <NavLink to="/projects" className=" collapsible-body">
-                      <i class="material-icons">code</i>React
+                      <i className="material-icons">code</i>React
                     </NavLink>
                   </li>
                   <li className="divider" tabindex="-1"></li>
@@ -161,12 +161,12 @@ const Navbar = () => {
                       to="/projects-angular"
                       className="collapsible-body"
                     >
-                      <i class="material-icons">code</i>Angular
+                      <i className="material-icons">code</i>Angular
                     </NavLink>
                   </li>
                   <li>
                     <NavLink to="/projects-vue" className="collapsible-body">
-                      <i class="material-icons">code</i>Vue
+                      <i className="material-icons">code</i>Vue
                     </NavLink>
                   </li>
                   <li>
@@ -174,7 +174,7 @@ const Navbar = () => {
                       to="/projects"
                       className="dropdowntext collapsible-body"
                     >
-                      <i class="material-icons">cloud</i>AWS
+                      <i className="material-icons">cloud</i>AWS
                     </NavLink>
                   </li>
                 </ul>

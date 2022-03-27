@@ -24,7 +24,7 @@ const ProjectMap = () => {
       <div className="row">
         <div className="myProjects">
           <h6 className="project-title">
-            <span class="material-icons">code</span> JavaScript
+            <i className="material-icons">code</i> JavaScript
           </h6>
           {JsProjectData &&
             JsProjectData.map((oneProject, index) => (
@@ -41,7 +41,7 @@ const ProjectMap = () => {
         <div className="myProjects">
           <h6 className="project-title">
             {" "}
-            <i class="material-icons">cloud</i> Amazon Web Services
+            <i className="material-icons">cloud</i> Amazon Web Services
           </h6>
           {AwsProjectData &&
             AwsProjectData.map((oneProject, index) => (
@@ -57,7 +57,7 @@ const ProjectMap = () => {
       <div className="row">
         <div className="myProjects">
           <h6 className="project-title">
-            <span class="material-icons">code</span> React Web Applications
+            <i className="material-icons">code</i> React Web Applications
           </h6>
           {ProjectData &&
             ProjectData.map((oneProject, index) => (

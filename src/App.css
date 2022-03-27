@@ -141,6 +141,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
     /* justify-content: space-around;
     margin: 10px;
     padding: 20px; */
