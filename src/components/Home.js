@@ -27,6 +27,7 @@ const Home = () => {
             Portfolio...
           </Link>
         </h2>
+        <p>Responsiveness for mobile is still work in progress.</p>
       </div>
       <div className=" waves-effect waves-block waves-light ">
         {avatar && (

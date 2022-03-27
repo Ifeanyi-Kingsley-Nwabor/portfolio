@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectData from "./ProjectData";
 import JsProjectData from "./JsProjectData";
+import AwsProjectData from "./AwsProjectsData";
 import Projects from "./Projects";
 
 const ProjectMap = () => {
@@ -8,7 +9,7 @@ const ProjectMap = () => {
   return (
     <div className="y">
       <div className="project-map">
-        <h3>Projects</h3>
+        {/* <h3>Projects</h3>
         <p>
           <a
             href="https://aws.amazon.com"
@@ -18,14 +19,32 @@ const ProjectMap = () => {
             AWS
           </a>{" "}
           cloud solution projects coming soon.
-        </p>
-        <p style={{ color: "red" }}>Zombeatz is still work in progress!</p>
+        </p> */}
       </div>
       <div className="row">
         <div className="myProjects">
-          <h6 className="project-title">JavaScript</h6>
+          <h6 className="project-title">
+            <span class="material-icons">code</span> JavaScript
+          </h6>
           {JsProjectData &&
             JsProjectData.map((oneProject, index) => (
+              <div className="row " key={index}>
+                <div>
+                  <Projects oneProject={oneProject} />
+                </div>
+              </div>
+            ))}
+        </div>
+      </div>
+      <div className="divider"></div>
+      <div className="row">
+        <div className="myProjects">
+          <h6 className="project-title">
+            {" "}
+            <i class="material-icons">cloud</i> Amazon Web Services
+          </h6>
+          {AwsProjectData &&
+            AwsProjectData.map((oneProject, index) => (
               <div className="row" key={index}>
                 <div>
                   <Projects oneProject={oneProject} />
@@ -37,7 +56,9 @@ const ProjectMap = () => {
       <div className="divider"></div>
       <div className="row">
         <div className="myProjects">
-          <h6 className="project-title">React Web Applications</h6>
+          <h6 className="project-title">
+            <span class="material-icons">code</span> React Web Applications
+          </h6>
           {ProjectData &&
             ProjectData.map((oneProject, index) => (
               <div className="row" key={index}>

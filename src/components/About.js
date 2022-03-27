@@ -1,14 +1,12 @@
 import React, { useRef, useEffect } from "react";
-import hob1 from "../images/a4nbg.png";
-// import hob2 from "../images/a5nbg.png";
+import hob1 from "../images/hob1.png";
+import tux from "../images/tux.jpg";
 import nik from "../images/kingsley.png";
 
 import Hennessy from "./music/Hennessy";
 import Shuperu from "./music/Shuperu";
-// import video from "../mp4/videome.mp4";
 import M from "materialize-css";
 // import { Link } from "react-router-dom";
-// import LinkComponent from "./LinkComponent";
 
 const About = () => {
   const mySuperModal = useRef();
@@ -29,11 +27,9 @@ const About = () => {
                 className="avatar nik responsive-img"
                 alt="avatar_1"
               />
-
-              <h5 className="nik">Ifeanyi Kingsley Nwabor</h5>
             </div>
             <div className=" about-div">
-              <h4>About me</h4>
+              <h5 className="nik">Ifeanyi Kingsley Nwabor</h5>
               <hr></hr>
               <p className="about">
                 I am an ambitious result-oriented Junior Web Developer / Junior
@@ -84,33 +80,44 @@ const About = () => {
               </div>
             </div> */}
             <div className="hobby-1">
-              <div>
-                <h4>Hobbies</h4>
-                <p className="hobby-text">
-                  For hobbies, I enjoy tackling new challenges to the point that
-                  it hurts, and learning new skills to further develop myself
-                  towards a positive outcome. I pretty much like everything
-                  good, like listening to good music, eating good food (just
-                  throw in some <b>MEAT</b> please!).
-                </p>
+              <h4>Hobbies</h4>
+              <hr></hr>
+              <div className="hobby-content">
+                <div className="row">
+                  <p className="hobby-text hobby-first-text col s10 m5 l4">
+                    For hobbies, I enjoy tackling new challenges to the point
+                    that it hurts, and learning new skills to further develop
+                    myself towards a positive outcome. I pretty much like
+                    everything good, like listening to good music, eating good
+                    food (just throw in some <b>MEAT</b> please!).
+                  </p>
+                  <img
+                    src={hob1}
+                    className="hobby col s10 m5 l4 hoverable responsive-img"
+                    alt="avatar_1"
+                  />
+                </div>
               </div>
-              <img src={hob1} className="hobby responsive-img" alt="avatar_1" />
             </div>
 
             <div className="hobby-1">
-              <div>
-                <p className="hobby-text">
+              <div className="row">
+                <p className="hobby-text col s10 m5 l4">
                   During my free time, when I am a little bit inspired I like to
                   indulge myself in some music production. Below you can find
                   links to two of my music videos on YouTube. Your feedback is
                   always appreciated!
                 </p>
+                <img
+                  src={tux}
+                  className="nik col s10 m5 l4 responsive-img"
+                  alt="avatar_2"
+                />
               </div>
-            </div>
-
-            <div className="my-music-container">
-              <Hennessy /> {""}
-              <Shuperu />
+              <div className="my-music-container">
+                <Hennessy />
+                <Shuperu />
+              </div>
             </div>
           </div>
         </div>

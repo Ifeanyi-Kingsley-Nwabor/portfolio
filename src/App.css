@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .App {
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -11,13 +17,62 @@
   font-size: calc(10px + 2vmin);
 }
 
+.App-avatar {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-avatar {
+    animation: App-avatar-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-avatar-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 768px) {
+  .hamburger {
+    display: block;
+    position: static;
+    /* float: left; */
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-device-width: 320px) {
+  .brand-logo {
+    font-size: 10px;
+  }
+}
+
 .about-container {
-  background-image: url("./images/wp4.png");
+  background-image: url("./images/wp4.jpg");
   box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .portolio-container {
-  background-image: url("./images/wp4.png");
+  background-image: url("./images/water.png");
+  background-repeat: repeat;
+  /* background-position: 50% 0; */
+  /* background-size: cover; */
 }
 .aboutcard {
   display: flex;
@@ -64,14 +119,6 @@
   text-align: center;
 }
 
-/* .videome {
-  margin: 40px auto;
-}
-
-.video-btn {
-  margin: 20px auto;
-} */
-
 .card.service-card {
   padding: 0;
   margin: 0 auto;
@@ -87,6 +134,17 @@
   gap: 32px;
   padding-top: 30px;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-around;
+    margin: 10px;
+    padding: 20px; */
+  }
 }
 
 .card-image {
@@ -105,32 +163,73 @@
 }
 .my-music-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .my-music {
   padding: 20px;
-  background-color: rgb(245, 241, 241);
-  margin: 100px;
+  /* background-color: rgb(245, 241, 241); */
+  /* margin: 100px; */
   border-radius: 20px;
 }
 
 .hobby-1 {
   margin-top: 60px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  margin: 30px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: rgb(252, 238, 238);
+}
+
+.hobby-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
 .hobby {
-  width: 40%;
-  margin-right: 100px;
+  width: 50%;
+  /* margin-right: 100px; */
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(125, 169, 226, 0.6)
+  );
+  border-radius: 30px;
 }
+.hobby-first-text {
+  margin: 50px;
+  position: relative;
+  height: max-content;
+  top: 120px;
+  background-image: linear-gradient(
+    to left,
+    rgba(230, 225, 225, 0),
+    rgba(52, 52, 241, 0.1)
+  );
+  border-radius: 30px;
+}
+
 .hobby-text {
-  width: 60%;
+  width: 50%;
   text-align: justify;
   font-family: "Source Serif 4", sans-serif;
   font-size: 20px;
+  /* background-image: linear-gradient(
+    to right,
+    rgba(99, 97, 97, 0),
+    rgb(192, 194, 196)
+  ); */
+  border-radius: 30px;
 }
+/* .nik {
+  border-radius: 50px;
+  background-color: rgb(109, 104, 104);
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .nik {
@@ -150,42 +249,11 @@
   width: 50%;
 }
 .about-div {
-  width: 50%;
-}
-
-.App-avatar {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-avatar {
-    animation: App-avatar-spin infinite 20s linear;
-  }
-}
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-avatar-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
+  margin: 30px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: rgb(252, 238, 238);
 }
 
 .contact-page {
@@ -197,11 +265,11 @@
   padding-right: 50px;
 }
 
-.contact-bg {
-  /* background-image: url("./images/contact.jpg"); */
-}
-
-.contact_form {
+.angular,
+.vue {
+  margin: 30px;
+  padding: 50px;
+  height: 100vh;
 }
 
 .message_modal {
@@ -272,8 +340,8 @@
 }
 
 #footer {
-  /* margin: 0 auto; */
-  /* position: fixed; */
+  margin: 0 auto;
+  position: static;
 }
 
 .container_footer {
@@ -283,77 +351,11 @@
   justify-content: space-around;
 }
 
-.footer-copyright {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-
-  margin: 0 1100px 0 100px;
-}
-
 .quote-container {
   width: 500px;
   height: 100px;
 }
 
-/* material github and linkedin social icon */
-/* 
-.btn.social > :first-child,
-.btn-large.social > :first-child,
-.col.social > :first-child {
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
-}
-.btn.social,
-.btn-large.social,
-.col.social {
-  padding: 0 2rem 0 0;
-}
-.btn.social i,
-.btn-large.social i,
-.col.social i {
-  padding: 0 1rem;
-  margin-right: 1rem;
-}
-.btn.social-icon,
-.btn-large.social-icon,
-.col.social-icon {
-  padding: 0;
-}
-.btn.social-icon i,
-.btn-large.social-icon i,
-.col.social-icon i {
-  padding: 0 1rem;
-  margin-right: 0;
-}
-.btn-large.social-icon {
-  padding: 0 1rem;
-}
-.col.social {
-  width: 100%;
-  text-align: left;
-}
-
-.linkedin {
-  background-color: #007bb6;
-  color: #fff !important;
-}
-.linkedin i {
-  color: #fff !important;
-}
-.linkedin:hover {
-  background-color: #009de9 !important;
-}
-
-.github {
-  background-color: #444444;
-  color: #fff !important;
-}
-.github i {
-  color: #fff !important;
-}
-.github:hover {
-  background-color: #5e5e5e !important;
-} */
 .myProjects {
   width: 500px;
   display: flex;
@@ -365,4 +367,36 @@
   margin: 0 auto;
   text-align: center;
 }
-/* Create three equal columns that floats next to each other */
+
+.nothing {
+  position: relative;
+  left: 200px;
+  margin: 50px;
+  object-fit: contain;
+  width: 50%;
+}
+
+#dropdown1 {
+  position: absolute;
+  top: -65px;
+  min-width: 200px;
+}
+
+.dropdown-trigger {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contact_link_icon {
+  width: 20px;
+  color: white;
+}
+
+.project-sidenav-collaps {
+  margin-left: 15px;
+}
+
+.sidenav-logo {
+  margin-left: 30px;
+}

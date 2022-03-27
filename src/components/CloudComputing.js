@@ -7,14 +7,18 @@ const CloudComputing = () => {
     <div className="container">
       <div className="row">
         <div className="col s12 m8 l6 card-component">
-          <h5 className="header">Cloud Computing with Amazon AWS</h5>
           <div className="card service-card horizontal  hoverable">
-            <div className="card-image">
-              <img
-                className=" certification-image responsive-img"
-                src={aws}
-                alt="AWS SAA Certification"
-              />
+            <div className="row">
+              <div className="card-image">
+                <img
+                  className=" certification-image responsive-img"
+                  src={aws}
+                  alt="AWS SAA Certification"
+                />
+              </div>
+              <div className="col s10 m5 l5">
+                <h5 className="header">Cloud Computing with Amazon AWS</h5>
+              </div>
             </div>
             <div className="card-stacked">
               <div className="card-content">

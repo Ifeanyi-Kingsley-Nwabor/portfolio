@@ -8,14 +8,18 @@ const CloudComputing = () => {
     <div className="container">
       <div className="row">
         <div className="col s12 m8 l6 card-component">
-          <h5 className="header">Marine Geoscientist (MSc.)</h5>
           <div className="card service-card horizontal  hoverable">
-            <div className="card-image">
-              <img
-                src={uni_bremen}
-                alt="wbs coding school logo"
-                className="certification-image responsive-img"
-              />
+            <div className="row">
+              <div className="card-image col s10 m5 l5 ">
+                <img
+                  src={uni_bremen}
+                  alt="wbs coding school logo"
+                  className="certification-image responsive-img"
+                />
+              </div>
+              <div className="col s10 m5 l5 ">
+                <h5 className="header">Marine Geoscientist (MSc.)</h5>
+              </div>
             </div>
             <div className="card-stacked">
               <div className="card-content">

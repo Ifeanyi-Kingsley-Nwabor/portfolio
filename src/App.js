@@ -3,19 +3,22 @@ import "./App.css";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
-import NavBar from "./components/NavBar";
 import About from "./components/About";
 // import Projects from "./components/Projects";
 import ProjectMap from "./components/ProjectMap";
+import AngularProjects from "./components/AngularProjects";
+import VueProjects from "./components/VueProjects";
 import ContactForm from "./components/ContactForm";
 
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-      <NavBar />
+      <Navbar />
+
       <Switch>
         <Route exact path="/portfolio">
           <Portfolio />
@@ -29,6 +32,12 @@ function App() {
         <Route path="/projects">
           <ProjectMap />
         </Route>
+        <Route exact path="/projects-angular">
+          <AngularProjects />
+        </Route>
+        <Route exact path="/projects-vue">
+          <VueProjects />
+        </Route>
         <Route path="/contact">
           <Contact />
         </Route>
@@ -40,6 +49,7 @@ function App() {
         </Route>
         <Redirect from="*" to="/" />
       </Switch>
+
       <Footer />
     </div>
   );
