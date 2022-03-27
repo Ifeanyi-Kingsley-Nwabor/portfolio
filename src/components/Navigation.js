@@ -48,7 +48,7 @@ const Navigation = () => {
               React
             </NavLink>
           </li>
-          <li className="divider" tabindex="-1"></li>
+          <li className="divider" tabIndex="-1"></li>
           <li>
             <NavLink to="/projects-angular" className="dropdowntext">
               Angular
@@ -90,7 +90,7 @@ const Navigation = () => {
                 <a
                   className="dropdown-trigger"
                   ref={navDropDown}
-                  to="#!"
+                  href="#!"
                   data-target="dropdown1"
                 >
                   Projects
@@ -132,7 +132,7 @@ const Navigation = () => {
         <li className="no-padding">
           <ul className="collapsible collapsible-accordion ">
             <li className="project-sidenav-collaps">
-              <a className="collapsible-header white-text ">
+              <a href="#!" className="collapsible-header white-text ">
                 Projects
                 <i className="material-icons white-text">arrow_drop_down</i>
               </a>
@@ -154,7 +154,7 @@ const Navigation = () => {
                       <i className="material-icons">code</i>React
                     </NavLink>
                   </li>
-                  <li className="divider" tabindex="-1"></li>
+                  <li className="divider" tabIndex="-1"></li>
 
                   <li>
                     <NavLink
