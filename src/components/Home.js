@@ -21,13 +21,12 @@ const Home = () => {
     <div className="App">
       <div>
         <h1>Ifeanyi Kingsley Nwabor</h1>
-        <h2 className="welcome">
+        <h2 className="welcome" style={{ color: "black" }}>
           Welcome to my{" "}
           <Link className="App-link" to="/portfolio">
             Portfolio...
           </Link>
         </h2>
-        <p>Responsiveness for mobile is still work in progress.</p>
       </div>
       <div className=" waves-effect waves-block waves-light ">
         {avatar && (

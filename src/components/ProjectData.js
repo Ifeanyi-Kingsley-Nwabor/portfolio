@@ -1,7 +1,7 @@
 import bg_1 from "../images/bg_1.jpg";
 import bg_2 from "../images/bg_2.png";
-import pk_1 from "../images/pk_1.jpg";
-import bg_4 from "../images/bg_4.jpeg";
+// import pk_1 from "../images/pk_1.jpg";
+// import bg_4 from "../images/bg_4.jpeg";
 import spider from "../images/spider.jpeg";
 
 const projectData = [
@@ -49,25 +49,25 @@ const projectData = [
     techstack: "PERN"
   },
 
-  {
-    id: 2,
-    name: "Pokefight",
-    image: pk_1,
-    contributors: ["Ifeanyi Kingsley Nwabor", "Thilo Hemme", "Tomas Rihak"],
-    description:
-      "This Project was created by Ifeanyi Kingsley Nwabor, Thilo Hemme and Tomas Rihak as a prerequisite for the completion of the Full-stack Web and App Development Training at the WBS Coding school. Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. Pokémon was invented by a Japanese man named Satoshi Tajiri and his friend Ken Sugimori, who is an illustrator. It was really interesting working on this project and I believe it can be done better so I intend to continue working on it with time.",
-    url: {
-      frontend: "https://poke-fight.netlify.app/",
-      backend: "null"
-    },
-    repo: {
-      frontend: "https://github.com/Ifeanyi-Kingsley-Nwabor/pokefight_fe.git",
-      backend:
-        "https://github.com/Ifeanyi-Kingsley-Nwabor/pokefight_project.git"
-    },
-    tech: ["React, Node JS, MongoDB, Express, Jira,  Materialize CSS"],
-    techstack: "MERN"
-  },
+  // {
+  //   id: 2,
+  //   name: "Pokefight",
+  //   image: pk_1,
+  //   contributors: ["Ifeanyi Kingsley Nwabor", "Thilo Hemme", "Tomas Rihak"],
+  //   description:
+  //     "This Project was created by Ifeanyi Kingsley Nwabor, Thilo Hemme and Tomas Rihak as a prerequisite for the completion of the Full-stack Web and App Development Training at the WBS Coding school. Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. Pokémon was invented by a Japanese man named Satoshi Tajiri and his friend Ken Sugimori, who is an illustrator. It was really interesting working on this project and I believe it can be done better so I intend to continue working on it with time.",
+  //   url: {
+  //     frontend: "https://poke-fight.netlify.app/",
+  //     backend: "null"
+  //   },
+  //   repo: {
+  //     frontend: "https://github.com/Ifeanyi-Kingsley-Nwabor/pokefight_fe.git",
+  //     backend:
+  //       "https://github.com/Ifeanyi-Kingsley-Nwabor/pokefight_project.git"
+  //   },
+  //   tech: ["React, Node JS, MongoDB, Express, Jira,  Materialize CSS"],
+  //   techstack: "MERN"
+  // },
 
   {
     id: 3,
@@ -91,31 +91,31 @@ const projectData = [
     },
     tech: ["React, Hacker News API, Semantic-UI (React)"]
     // techstack: "null"
-  },
-
-  {
-    id: 4,
-    name: "Lifestyle",
-    image: bg_4,
-    contributors: [
-      "Bogdan Cocis",
-      "Ifeanyi Kingsley Nwabor",
-      "Kelvin Asomugha"
-    ],
-    description:
-      "This is a blog about lifestyle in general. The Lifestyle blog features tips regarding various niches such as, Health and Fitness tips,  Health and wellness tips, Travel tips with information about some of the best places to visit for instance in Berlin Germany and also somewhere in Cape Town South Africa. The development of the Lifestyle blog is still very much in progress and subsequent updates would be made.",
-    url: {
-      frontend: "https://lifestyle-kulture.netlify.app/",
-      backend: "null"
-    },
-    repo: {
-      frontend:
-        "https://github.com/Ifeanyi-Kingsley-Nwabor/Life-style-blog.git",
-      backend: "https://github.com/Ifeanyi-Kingsley-Nwabor/lifestyle-api.git"
-    },
-    tech: ["React, Node JS, PostgreSQL, Express, Trello Board,  Bootstrap"],
-    techstack: "PERN"
   }
+
+  // {
+  //   id: 4,
+  //   name: "Lifestyle",
+  //   image: bg_4,
+  //   contributors: [
+  //     "Bogdan Cocis",
+  //     "Ifeanyi Kingsley Nwabor",
+  //     "Kelvin Asomugha"
+  //   ],
+  //   description:
+  //     "This is a blog about lifestyle in general. The Lifestyle blog features tips regarding various niches such as, Health and Fitness tips,  Health and wellness tips, Travel tips with information about some of the best places to visit for instance in Berlin Germany and also somewhere in Cape Town South Africa. The development of the Lifestyle blog is still very much in progress and subsequent updates would be made.",
+  //   url: {
+  //     frontend: "https://lifestyle-kulture.netlify.app/",
+  //     backend: "null"
+  //   },
+  //   repo: {
+  //     frontend:
+  //       "https://github.com/Ifeanyi-Kingsley-Nwabor/Life-style-blog.git",
+  //     backend: "https://github.com/Ifeanyi-Kingsley-Nwabor/lifestyle-api.git"
+  //   },
+  //   tech: ["React, Node JS, PostgreSQL, Express, Trello Board,  Bootstrap"],
+  //   techstack: "PERN"
+  // }
 ];
 
 export default projectData;

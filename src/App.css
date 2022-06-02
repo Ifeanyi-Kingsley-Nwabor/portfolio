@@ -7,12 +7,10 @@ body {
 .App {
   text-align: center;
   font-family: "Lato", sans-serif;
-  background-image: url("./images/wp2.jpg");
   object-fit: fill;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
@@ -45,7 +43,6 @@ body {
   .hamburger {
     display: block;
     position: static;
-    /* float: left; */
   }
   .logo {
     display: flex;
@@ -60,7 +57,11 @@ body {
 }
 
 .about-container {
-  background-image: url("./images/wp4.jpg");
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(125, 169, 226, 0.6)
+  );
   box-sizing: border-box;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,12 +69,6 @@ body {
   position: relative;
 }
 
-.portolio-container {
-  background-image: url("./images/water.png");
-  background-repeat: repeat;
-  /* background-position: 50% 0; */
-  /* background-size: cover; */
-}
 .aboutcard {
   display: flex;
   flex-direction: row;
@@ -83,21 +78,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-/* .container { */
-/* text-align: center;
-  font-family: "Lato", sans-serif; */
-/* background-image: url("./images/bg_2.jpg"); */
-/* background: rgba(6, 6, 6, 0.3); */
-/* object-fit: fill;
-  min-height: 100vh; */
-/* display: flex;
-  flex-direction: column; */
-/* flex-wrap: wrap;
-  align-items: center;
-  justify-content: center; */
-/* font-size: calc(10px + 2vmin); */
-/* } */
 
 .flex-container {
   display: flex;
@@ -127,6 +107,19 @@ body {
   display: flex;
   flex-direction: column;
 }
+.logo {
+  width: 60px;
+  margin-top: 3px;
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.horizontal-line {
+  margin: 70px 0 30px 0;
+}
 
 .row {
   display: flex;
@@ -136,15 +129,12 @@ body {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (width: 768px) {
   .row {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    /* justify-content: space-around;
-    margin: 10px;
-    padding: 20px; */
   }
 }
 
@@ -169,15 +159,22 @@ body {
 
 .my-music {
   padding: 20px;
-  /* background-color: rgb(245, 241, 241); */
-  /* margin: 100px; */
+
   border-radius: 20px;
+}
+
+#my-photo {
+  background-image: url("./images/me.jpg");
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
 }
 
 .hobby-1 {
   margin-top: 60px;
-  /* display: flex; */
-  /* flex-direction: row; */
   margin: 30px;
   padding: 20px;
   width: 100%;
@@ -186,6 +183,12 @@ body {
 }
 
 .hobby-content {
+  background-image: url("./images/px.jpg");
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -194,7 +197,6 @@ body {
 
 .hobby {
   width: 50%;
-  /* margin-right: 100px; */
   background-image: linear-gradient(
     to right,
     rgba(255, 0, 0, 0),
@@ -203,10 +205,9 @@ body {
   border-radius: 30px;
 }
 .hobby-first-text {
-  margin: 50px;
+  margin: 0 50px;
   position: relative;
   height: max-content;
-  top: 120px;
   background-image: linear-gradient(
     to left,
     rgba(230, 225, 225, 0),
@@ -217,20 +218,16 @@ body {
 
 .hobby-text {
   width: 50%;
-  text-align: justify;
+  text-align: start;
   font-family: "Source Serif 4", sans-serif;
   font-size: 20px;
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
     to right,
     rgba(99, 97, 97, 0),
     rgb(192, 194, 196)
-  ); */
+  );
   border-radius: 30px;
 }
-/* .nik {
-  border-radius: 50px;
-  background-color: rgb(109, 104, 104);
-} */
 
 @media (prefers-reduced-motion: no-preference) {
   .nik {
@@ -247,7 +244,7 @@ body {
   }
 }
 .avatar {
-  width: 50%;
+  width: 100%;
 }
 .about-div {
   margin: 30px;
@@ -330,7 +327,6 @@ body {
 .my-links {
   display: flex;
   flex-wrap: wrap;
-  /* align-self: flex-end; */
   width: 150px;
   justify-content: center;
 }
@@ -340,9 +336,20 @@ body {
   margin: 10px auto;
 }
 
+.items {
+  display: flex;
+  justify-content: center;
+}
+
 #footer {
-  margin: 0 auto;
-  position: static;
+  background-image: url("./images/foot1.jpg");
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  height: max-content;
 }
 
 .container_footer {

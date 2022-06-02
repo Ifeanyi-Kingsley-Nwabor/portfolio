@@ -1,6 +1,7 @@
 import React, { Fragment, useRef, useEffect } from "react";
 import M from "materialize-css";
 import { NavLink } from "react-router-dom";
+import nik from "../images/nik.png";
 
 const Navigation = () => {
   useEffect(() => {
@@ -67,10 +68,10 @@ const Navigation = () => {
         </ul>
       </div>
       <div className="navbar-fixed">
-        <nav className="blue darken-2">
+        <nav className="blue lighten-2">
           <div className="nav-wrapper mx-4 container">
             <NavLink to="/" className="brand-logo ">
-              nik Portfolio
+              <img className="logo nik" src={nik} alt="nik" />
             </NavLink>
             <a href="#!" className="sidenav-trigger" data-target="mobile-nav">
               <i className="material-icons">menu</i>
@@ -106,7 +107,11 @@ const Navigation = () => {
       </div>
 
       <ul className="sidenav blue darken-2" id="mobile-nav">
-        <h3 className="white-text ml-2 sidenav-logo">nik Portfolio</h3>
+        <img className="logo nik" src={nik} alt="nik" />
+
+        <h5 className="white-text ml-2 sidenav-logo">
+          Ifeanyi Kingsley Nwabor
+        </h5>
         <li>
           <div className="divider grey lighten-4"></div>
         </li>

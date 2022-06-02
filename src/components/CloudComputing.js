@@ -1,46 +1,48 @@
 import React from "react";
-// import aws from "../images/aws.png";
-import aws from "../images/aws2.png";
+import aws from "../images/aws.png";
 
 const CloudComputing = () => {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col s12 m8 l6 card-component">
-          <div className="card service-card horizontal  hoverable">
-            <div className="row">
-              <div className="card-image">
-                <img
-                  className=" certification-image responsive-img"
-                  src={aws}
-                  alt="AWS SAA Certification"
-                />
-              </div>
-              <div className="col s10 m5 l5">
-                <h5 className="header">Cloud Computing with Amazon AWS</h5>
-              </div>
-            </div>
-            <div className="card-stacked">
-              <div className="card-content">
-                <p>
-                  I am a Certified (AWS) Solution Architect Associate. I have a
-                  good understanding of the AWS console at handling small to
-                  intermediate bits of cloud provissioning. For me, the learning
-                  never stops, so I hope to continue developing my skills in
-                  this domain.
-                </p>
-              </div>
-              <div className="card-action">
-                <a
-                  href="https://www.youracclaim.com/badges/628a4b4f-13d1-4dde-a775-1a00daaf662d?source=linked_in_profile"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Verify
-                </a>
-              </div>
-            </div>
+    <div>
+      <div className="card sticky-action hoverable service-card">
+        <div className="card-image  waves-effect waves-block waves-light">
+          <img
+            className="activator  responsive-img"
+            src={aws}
+            alt="AWS SAA Certification"
+          />
+        </div>
+        <div className="card-content">
+          <span className="card-title activator grey-text text-darken-4">
+            Full-stack Web And App Development
+            <i className="material-icons right">more_vert</i>
+          </span>
+          <div className="card-action">
+            <p>
+              <a
+                href="https://www.youracclaim.com/badges/628a4b4f-13d1-4dde-a775-1a00daaf662d?source=linked_in_profile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Verify
+              </a>
+            </p>
           </div>
+        </div>
+        <div className="card-reveal">
+          <span className="card-title grey-text text-darken-4">
+            Full-stack Web And App Development
+            <i className="material-icons right">close</i>
+          </span>
+          <p>
+            I had the opportunity to participate in a 3-month intensive
+            Full-stack Web and App Developement Training at the WBS Coding
+            School and it was the best decission that I ever made. My Tech
+            skills includes but not limited to HTML, CSS, Javascript, React,
+            Node JS, Express and SQL/NOSQL. I find it really fascinating how one
+            can easily bring an idea to reality by using various tools and
+            frameworks.
+          </p>
         </div>
       </div>
     </div>

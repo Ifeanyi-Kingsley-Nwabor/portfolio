@@ -1,6 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-// import LinkComponent from "./LinkComponent";
+
 import CloudComputing from "./CloudComputing";
 import Scrum from "./Scrum";
 import WebDev from "./WebDev";
@@ -8,21 +7,25 @@ import Masters from "./Masters";
 
 const Portfolio = () => {
   return (
-    <div className="portolio-container col s12 m6 l10">
-      <div className="col ">
-        <WebDev />
-      </div>
+    <div className="container">
+      <div className="row items">
+        <div className="col s12 m8 l5">
+          <WebDev />
+        </div>
 
-      <div className="col ">
-        <CloudComputing />
+        <div className="col s12 m8 l5">
+          <CloudComputing />
+        </div>
       </div>
+      <hr className="horizontal-line"></hr>
+      <div className="row">
+        <div className="col s12 m8 l5">
+          <Scrum />
+        </div>
 
-      <div className="col ">
-        <Scrum />
-      </div>
-
-      <div className="col ">
-        <Masters />
+        <div className="col s12 m8 l5">
+          <Masters />
+        </div>
       </div>
     </div>
   );

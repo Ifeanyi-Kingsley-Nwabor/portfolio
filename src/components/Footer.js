@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="page-footer  blue darken-2" id="footer">
       <div className="container container_footer">
         <div className="row ">
-          <div className="col s12 m4 l3">
+          <div className="col s12 l3">
             <h5 className="white-text">Contact</h5>
             <ul className="grey-text text-lighten-4">
               <li>
@@ -41,7 +41,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col l4 s12">
+          <div className="col s12 l3">
             <h5 className="white-text">Tech-stack</h5>
             <ul>
               <li>
@@ -66,7 +66,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col l4 s12">
+          <div className="col s12 l3">
             <h5 className="white-text">Content</h5>
             <ul>
               <li>
@@ -97,11 +97,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        {/* <p className="footer-copyright">© 2021 Copyright</p> */}
+        <p className="footer-copyright">© 2021 Copyright</p>
       </div>
-
-      {/* <div className="footer-copyright">
-      </div> */}
     </footer>
   );
 };

@@ -1,12 +1,12 @@
 import React, { useRef, useEffect } from "react";
-import hob1 from "../images/hob1.png";
-import tux from "../images/tux.jpg";
-import nik from "../images/kingsley.png";
 
-import Hennessy from "./music/Hennessy";
-import Shuperu from "./music/Shuperu";
+// import me from "../images/me.jpg";
+import me5 from "../images/me5.png";
+// import px from "../images/px.jpg";
+
+// import Hennessy from "../music/Hennessy";
+// import Shuperu from "../music/Shuperu";
 import M from "materialize-css";
-// import { Link } from "react-router-dom";
 
 const About = () => {
   const mySuperModal = useRef();
@@ -17,13 +17,12 @@ const About = () => {
   }, []);
   return (
     <div className=" about-container responsive">
-      {/* <div className="container responsive "> */}
       <div className="row" id="about-me">
         <div className="col s12 m8 offset-m2">
           <div className="     aboutcard">
             <div className="name-image ">
               <img
-                src={nik}
+                src={me5}
                 className="avatar nik responsive-img"
                 alt="avatar_1"
               />
@@ -48,81 +47,60 @@ const About = () => {
                 I have keen eyes for details and a mindset of "Think outside the
                 box" as need arises. I love working in teams as well as
                 independently in a multicultural settings and possess good
-                communication skills. I strife for professional as well as
-                Personal development and always eager to learn new skills.
+                communication skills. I love to learn new skills to further
+                develop myself professionally as well as personally.
               </p>
             </div>
 
-            {/* <LinkComponent /> */}
-
-            {/* <div>
-              <a
-                className="waves-effect waves-light btn video-btn modal-trigger"
-                href="#modal1"
-              >
-                Watch a minute video
-              </a>
-              <div id="modal1" className="modal col s12 m8 " ref={mySuperModal}>
-                <div className="modal-content videome">
-                  
-                  <video className="video-container responsive-video" controls>
-                    <source src={video} type="video/mp4" />
-                  </video>
-                </div>
-                <div className="modal-footer">
-                  <a
-                    href="/about"
-                    className="modal-close waves-effect waves-green btn-flat"
-                  >
-                    Close
-                  </a>
-                </div>
-              </div>
-            </div> */}
             <div className="hobby-1">
               <h4>Hobbies</h4>
               <hr></hr>
               <div className="hobby-content">
                 <div className="row">
                   <p className="hobby-text hobby-first-text col s10 m5 l4">
-                    For hobbies, I enjoy tackling new challenges to the point
-                    that it hurts, and learning new skills to further develop
-                    myself towards a positive outcome. I pretty much like
-                    everything good, like listening to good music, eating good
-                    food (just throw in some <b>MEAT</b> please!).
+                    <b>
+                      As an individual with a good sense of creativity, I pretty
+                      much like everything good, such as seeing my daughter
+                      smile, listening to good music while trying to debug my
+                      code and fix some errors.
+                    </b>
                   </p>
-                  <img
-                    src={hob1}
+                  <div className="col s10 m5 l4"></div>
+                  {/* <img
+                    src={px}
                     className="hobby col s10 m5 l4 hoverable responsive-img"
                     alt="avatar_1"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
 
-            <div className="hobby-1">
+            <div className="hobby-1" id="my-photo">
               <div className="row">
-                <p className="hobby-text col s10 m5 l4">
-                  During my free time, when I am a little bit inspired I like to
-                  indulge myself in some music production. Below you can find
-                  links to two of my music videos on YouTube. Your feedback is
-                  always appreciated!
-                </p>
-                <img
-                  src={tux}
-                  className="nik col s10 m5 l4 responsive-img"
+                {/* <img
+                  src={me}
+                  className="col s10 m5 l4 img responsive-img"
                   alt="avatar_2"
-                />
+                /> */}
+                <div></div>
+
+                <p className="hobby-text col s10 m5 l4">
+                  <b>
+                    I enjoy travelling and I am interested in experiencing other
+                    cultures and traditions. In addition, I love eating good
+                    food and also hanging out with old as well as making new
+                    friends.
+                  </b>
+                </p>
               </div>
-              <div className="my-music-container">
+              {/* <div className="my-music-container">
                 <Hennessy />
                 <Shuperu />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
-      {/* </div> */}
     </div>
   );
 };
